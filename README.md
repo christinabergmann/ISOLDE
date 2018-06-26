@@ -1,6 +1,17 @@
 # ISOLDE
 Here you can find the materials for the practical exercises and demonstrations of the Computational Modelling tutorial at ISOLDE 2018 in Potsdam. 
 
+
+### Which sort of files are in this repository?
+
+There are five different types of files, which can be identified by their file type:
+1. '.pdf' The lecture slides from both days of the tutorial, which you can open for example with Adobe Acrobat Reader.  
+2. '.ipynb' The Jupyter notebooks from the practical part, for instructions how to open and edit them see below.  
+3. '.cor' Corpus data for the statistical learning exercise. Both corpora were hand-created, the first is based on descriptions from the source paper (Saffran, Aslin, & Newport, 1996), the second one is a syllabified (but orthographic) representation of Experiment 3b in pelucchi, Hay, & Saffran (2009). The files are in a simple text format, and you can open them with any text editor.     
+4. '.csv' corpus and uptake data for the vocabulary learning exercise (one packed in a '.zip' file), the corpora were obtained as follows: The vocabulary data was downloaded from Wordbank: http://wordbank.stanford.edu/analyses?name=item_data and the input corpus is the Brent corpus from CHILDES, which can be downloaded in a convenient format via http://gandalf.talkbank.org:8080/childes2csv/  You can open the files with spreadsheet software such as Excel.  
+5. '.py' files contain the "solution" to the exercises in simple python format. You can open them with any text editor.
+
+
 ### How to complete the practical exercises and demos?
 
 There are two options to complete the exercises and run the demos.
@@ -24,3 +35,4 @@ For the statistical learning exercise, the "solutions" are in the file "bigram_m
 
 
 **Note**: Your edits will not be saved, download the file to keep your changes to it.
+
